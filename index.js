@@ -21,7 +21,7 @@ app.use(bodyParser.json({ extended: true }));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use('/', Router);
 
-app.use("/api", Router);
+
 
 
 const PORT = 8000;
